@@ -10,5 +10,3 @@ describe 'post_path' do
     visit post_path(@post)
     expect(page.status_code).to eq(200), 'post_path is not responding correctly'
   end
-
-  it 'sh
